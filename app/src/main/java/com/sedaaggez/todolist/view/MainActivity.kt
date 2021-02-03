@@ -1,10 +1,11 @@
-package com.sedaaggez.todolist
+package com.sedaaggez.todolist.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.sedaaggez.todolist.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        navigationController = Navigation.findNavController(this,R.id.fragment)
+        navigationController = Navigation.findNavController(this, R.id.fragment)
         NavigationUI.setupActionBarWithNavController(this,navigationController)
     }
 
