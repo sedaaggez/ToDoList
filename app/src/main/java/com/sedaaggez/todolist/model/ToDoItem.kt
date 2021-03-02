@@ -2,7 +2,7 @@ package com.sedaaggez.todolist.model
 
 
 data class ToDoItem(
-        var id: Int,
+        var UID: String,
         var title: String,
         var description: String,
         var completed: Boolean
