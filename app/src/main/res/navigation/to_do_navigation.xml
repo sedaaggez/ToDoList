@@ -22,4 +22,13 @@
             android:id="@+id/action_toDoItemFragment_to_toDoListFragment"
             app:destination="@id/toDoListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.sedaaggez.todolist.view.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_toDoItemFragment"
+            app:destination="@id/toDoItemFragment" />
+    </fragment>
 </navigation>

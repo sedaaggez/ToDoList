@@ -41,7 +41,6 @@ android {
 }
 
 dependencies {
-
     def lifeCycleExtensionVersion = '1.1.1'
     def supportVersion = '28.0.0'
     def retrofitVersion = '2.3.0'
@@ -90,5 +89,7 @@ dependencies {
     implementation "androidx.preference:preference:$preferencesVersion"
 
     implementation 'com.google.firebase:firebase-database:19.6.0'
+
+    implementation 'com.google.firebase:firebase-auth:20.0.3'
 
 }
